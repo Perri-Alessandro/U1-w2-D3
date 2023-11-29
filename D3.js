@@ -182,10 +182,6 @@ for (let i = 0; i < starWarsCharacters.length; i++) {
       break;
     default:
       console.log("colore occhi non riconosciuto");
-      console.log(
-        "IL PERSONAGGIO CON GLI OCHHI DI QUESTO COLORE è:",
-        starWarsCharacters[i].name
-      );
       break;
   }
   console.log("COLORE DEGLI OCCHI", character.eye_color);
